@@ -101,10 +101,10 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Elementary", grades: "Grades 1-5", description: "Building strong foundations in core subjects" },
-              { title: "Middle School", grades: "Grades 6-8", description: "Developing critical thinking and independence" },
-              { title: "High School", grades: "Grades 9-12", description: "Preparing for college and career success" },
-              { title: "Extracurricular", grades: "All Grades", description: "Sports, arts, clubs, and activities" },
+              { title: "المرحلة الابتدائية", grades: "Grades 1-5", description: "Building strong foundations in core subjects" },
+              { title: "المرحلة المتوسطة", grades: "Grades 6-8", description: "Developing critical thinking and independence" },
+              { title: "المرحلة الثانوية ", grades: "Grades 9-12", description: "Preparing for college and career success" },
+             
             ].map((program, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
